@@ -1,0 +1,32 @@
+{
+  "name": "price-chain-bot",
+  "version": "1.0.0",
+  "description": "Price Chain Bot",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "@uniswap/sdk": "^3.0.3",
+    "axios": "^0.19.2",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.5.6",
+    "ethers": "^5.0.19",
+    "express": "^4.15.2",
+    "infura-web3-provider": "0.0.3",
+    "lodash": "^4.17.20",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "request": "^2.81.0"
+  },
+  "license": "MIT"
+}
